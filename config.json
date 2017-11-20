@@ -1,0 +1,17 @@
+{
+    "source": {
+        "jdbcDriverClass": "org.postgresql.Driver",
+        "jdbcConnectionUrl": "jdbc:postgresql://localhost:5432/college",
+        "username": "postgres",
+        "password": "postgres"
+    },
+    "destination": {
+        "mongoHost": "localhost",
+        "mongoPort": "27017",
+        "database": "college",
+        "username": "",
+        "password": ""
+    },
+    "toJson": true,
+    "jsonOutputDirectory": "."
+}
